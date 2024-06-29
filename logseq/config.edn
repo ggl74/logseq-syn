@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -291,15 +291,8 @@
  ;;  :excluded-pages? false  ; Default value: false
  ;;  :journal?        false} ; Default value: false
 
- ;; Graph view configuration.
- ;; Example usage:
- ;; :graph/forcesettings
- ;; {:link-dist       180    ; Default value: 180
- ;;  :charge-strength -600   ; Default value: -600
- ;;  :charge-range    600}   ; Default value: 600
-
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["logseq使用笔记" "近代哲学史"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -418,4 +411,7 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
- :file/name-format :triple-lowbar}
+ :file/name-format :triple-lowbar
+ :feature/enable-journals? true
+ :default-home {}
+ :publishing/all-pages-public? true}
