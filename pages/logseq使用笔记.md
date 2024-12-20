@@ -1,6 +1,5 @@
 - {{renderer :tocgen2}}
 - # Markdown 相关
-  collapsed:: true
 	-
 	- 粗体 __粗体__ ； 斜体 *斜体*；高亮 ==高亮== 删除线 ~~删除线~~
 	  id:: 65bcc416-aaaa-4495-84cd-4e1ca7bf0927
