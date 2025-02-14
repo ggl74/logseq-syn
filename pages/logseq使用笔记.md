@@ -67,7 +67,6 @@
 			- >(())
 -
 - # 模板使用
-  collapsed:: true
 	- `/template`
 	- [[看板模版1]] #.v-kanban
 	  template:: 看板模版
