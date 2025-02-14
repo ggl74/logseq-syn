@@ -214,7 +214,6 @@ collapsed:: true
 			-
 -
 - # [[配置表]]
-  collapsed:: true
 	- ## {{renderer :luckysheet, 配置清单1@1718376854167}}
 -
 - # 装系统相关
