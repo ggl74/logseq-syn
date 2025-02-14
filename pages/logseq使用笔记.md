@@ -49,6 +49,7 @@
 	- >必须^^块内换行^^,且第一行不会作为无序
 -
 - # 快捷键部分 (可在软件内修改)
+  collapsed:: true
 	- ## 格式部分 #.v-kanban
 		- `Ctrl+B` **加粗**
 			- `Ctrl+s` ~~删除线~~
@@ -67,6 +68,7 @@
 			- >(())
 -
 - # 模板使用
+  collapsed:: true
 	- `/template`
 	- [[看板模版1]] #.v-kanban
 	  template:: 看板模版
